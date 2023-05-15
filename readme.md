@@ -1,30 +1,4 @@
----
-title: "Lab 02: Building a Sentiment Analysis Benchmark"
-author: ["Dang Nguyen Minh Quan"]
-date: "2023-04-14"
-subtitle: "CSC14114 Big Data Application 19KHMT"
-lang: "en"
-titlepage: true
-titlepage-color: "0B1887"
-titlepage-text-color: "FFFFFF"
-titlepage-rule-color: "FFFFFF"
-titlepage-rule-height: 2
-book: true
-classoption: oneside
-code-block-font-size: \scriptsize
----
-
-Task | Completed
-------------------|----------------------------------------
-Constructing Graph      | **Percent**: 100
-Betweenness Calculation      | **Percent**: 100
-Girvan-Newman       | **Percent**: 100
-Community Detection    | **Percent**: 100
-Girvan-Newman using NetworkX | Percent: 100
-Compare results provided by NetworkX and my implementaion | **Percent**: 100
-
-
-# Lab 03: Community Detection
+# Community Detection
 
 This kernel has 3 file:
 - **ImplementGraph.py**: implementation code for graph construction, edge betweenness score calculating, girvan-newman algorithm and community detection
@@ -94,6 +68,4 @@ By the way, my implementation is correct!!
 ### Run this kernel
 To run this kernel, you must install **NetworkX** library, and run file **main.py**. It will print the highest community's modularity from both my implementation and NetworkX,
 simultaneously write 2 output file of 2 community : _commnunity_detection.txt_ and c*ommunity_detection_nx.txt*.
-
-## References
-- Slides
+simultaneously write 2 output file of 2 community : _commnunity_detection.txt_ and c*ommunity_detection_nx.txt*.
